@@ -65,7 +65,7 @@ const App = () => {
                         >
                             {todo.title}
                         </span>
-                        <button
+                        <button 
                             onClick={() => deleteTodo(todo._id)}
                             className="btn btn-danger btn-sm"
                         >
